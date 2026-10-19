@@ -45,6 +45,17 @@ These are **future example targets**, not claims of existing support or release 
 - **Shipweard** owns production/operational signals and their relationship to validation evidence.
 - **Launchpad** teaches developers how to adopt these capabilities. Product code, core adapters, and product-specific authoritative documentation remain in their respective repositories.
 
+### Ecosystem architectural principle: independent products, optional integrations
+
+Forge, Tun, Atticus, and Shipweard are **independent products**, not modules that must be installed or released as a group.
+
+- Each must be installable, usable, configured, tested, and released on its own.
+- Its primary capability must remain available without the other products or Launchpad.
+- Cross-product integration is **opt-in** and should add value rather than be a prerequisite.
+- Shared contracts must be minimal, explicit, versioned, and interoperable; sharing implementation or creating a mandatory umbrella/core package is not a goal.
+- Cross-product compatibility tests and runnable Launchpad examples supplement—not replace—each product's own tests.
+- Prefer independently compatible releases over synchronized releases. If coordination becomes unavoidable, revisit the product boundary before adopting submodules, a monorepo, or a shared runtime.
+
 Do not create a Launchpad CLI, unified dashboard, execution coordinator, or shared product state without a separately demonstrated need. The existence of a portfolio does not justify another application.
 
 ## Success criterion
