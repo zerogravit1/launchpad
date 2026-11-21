@@ -11,3 +11,10 @@ Read the [Launchpad North Star](docs/NORTH_STAR.md) for its mission, scope, and 
 > **Status:** The example catalog and quickstarts are planned. The first target is TypeScript/Vitest once Forge has a meaningful test-selection workflow.
 
 The broader portfolio vision is documented in the [Evidence-Driven Software Validation North Star](https://github.com/zerogravit1/launchpad/wiki/North-Star-%E2%80%90-Evidence-Driven-Software-Validation).
+
+## License
+
+Copyright © 2026 Jonathan Schaffer.
+
+Licensed under the Apache License, Version 2.0.
+See [LICENSE](LICENSE) for details.
